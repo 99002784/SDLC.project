@@ -10,12 +10,12 @@ src/money.c\
 
 # All test source files
 TEST_SRC = src/money.c\
-test/test_money.c
+test/test.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
-INC	= -Iinc
+INC	= -Iinclude
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
